@@ -1,6 +1,9 @@
 import { ApolloServer } from 'apollo-server-express'
 import schema from './graphql'
 const express = require('express')
+export {}
+
+declare const module: any
 
 const server = new ApolloServer({
   schema,

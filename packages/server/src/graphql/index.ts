@@ -11,7 +11,10 @@ const typeDefs = gql`
   }
 `
 
-const r = {}
+const r = {
+  Query: {},
+  Mutation: {},
+}
 
 const schema = makeExecutableSchema({
   typeDefs: [typeDefs],
