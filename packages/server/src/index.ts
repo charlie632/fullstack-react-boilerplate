@@ -1,7 +1,9 @@
 import { ApolloServer } from 'apollo-server-express'
 import schema from './graphql'
 const express = require('express')
+import { init } from './firebase'
 export {}
+init()
 
 declare const module: any
 
